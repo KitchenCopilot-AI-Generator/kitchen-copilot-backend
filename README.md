@@ -123,6 +123,8 @@ Example response:
 
 ### 2. Get Ingredients Endpoint (GET /ingredients)
 
+![Ingredients Analysis Display](assets/Ingredients.png)
+
 1. Create a new GET request to `http://localhost:7071/kitchen-copilot-api/ingredients?request_id=fridge_1743074276_5115e30c`
 2. Add the `x-functions-key` header as described above
 3. The request_id query parameter is required to get ingredients from a specific analysis
@@ -141,6 +143,8 @@ Example response:
 ```
 
 ### 3. Get Recipes Endpoint (GET /recipes)
+
+![Recipe Suggestions Display](assets/Recipes.png)
 
 1. Create a new GET request to `http://localhost:7071/kitchen-copilot-api/recipes?request_id=fridge_1743074276_5115e30c`
 2. Add the `x-functions-key` header as described above
@@ -246,6 +250,8 @@ Example response:
 ```
 
 ## Dietary Restrictions Feature
+
+![Allergy & Dietary Display](assets/Allergy.png)
 
 The Kitchen Copilot API supports the following dietary restrictions:
 
