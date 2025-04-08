@@ -1,3 +1,3 @@
 # TODO List
 
-- Convert the monolithic flask app into a singular azure function app with multiple endpoints so the only change for frontend integration is the .env.local connection which contains NEXT_PUBLIC_API_URL=http://localhost:5000
+- Maybe need to explore CORS viability
