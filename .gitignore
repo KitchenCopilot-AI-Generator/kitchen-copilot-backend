@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+.vscode
+local.settings.json
+
 # C extensions
 *.so
 
@@ -173,3 +176,4 @@ cython_debug/
 
 snapshot.py  
 snapshot.txt
+.python_packages
