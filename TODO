@@ -1,11 +1,3 @@
 # TODO List
 
-1. Containerize the application.
-    - Create a Dockerfile for the application.
-    - Build and test the Docker image locally.
-    - Push the Docker image to Azure Container Registry.
-
-2. Host the frontend as an Azure Static Web App.
-    - Configure the frontend for deployment.
-    - Set up an Azure Static Web App resource.
-    - Deploy the frontend to Azure.
+- Convert the monolithic flask app into a singular azure function app with multiple endpoints so the only change for frontend integration is the .env.local connection which contains NEXT_PUBLIC_API_URL=http://localhost:5000
