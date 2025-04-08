@@ -4,7 +4,7 @@ Recipe Service - Service for generating recipe suggestions based on ingredients
 
 import json
 import pandas as pd
-from prompts.recipe_prompt import get_recipe_system_prompt
+from ..prompts.recipe_prompt import get_recipe_system_prompt
 
 class RecipeService:
     """Service for generating recipes based on available ingredients"""
