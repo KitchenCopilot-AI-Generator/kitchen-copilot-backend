@@ -10,6 +10,8 @@ An Azure Function App that leverages computer vision to identify food items from
 - **Dietary Restrictions**: Specify allergies or dietary preferences for personalized recipes
 - **Cloud Storage**: All data is stored in Azure Blob Storage for reliability and scalability
 
+![Solution Architecture Diagram](assets/Architecture.png)
+
 ## Requirements
 - Python 3.8+
 - Azure Functions Core Tools
