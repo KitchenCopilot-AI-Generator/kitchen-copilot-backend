@@ -4,3 +4,4 @@ pandas
 flask
 flask-cors
 azure-storage-blob
+azure-functions
