@@ -3,8 +3,8 @@ Vision Service - Service for analyzing fridge/food images
 """
 
 import json
-from utils.image_utils import encode_image_from_blob, encode_image_from_bytes
-from prompts.vision_prompt import get_vision_system_prompt
+from ..utils.image_utils import encode_image_from_blob, encode_image_from_bytes
+from ..prompts.vision_prompt import get_vision_system_prompt
 
 class VisionService:
     """Service for analyzing food/fridge images using Azure OpenAI Vision API"""
