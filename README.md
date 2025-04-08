@@ -1,6 +1,6 @@
 # Kitchen Copilot - Backend API
 
-An Azure Functions application that analyzes refrigerator contents through images and suggests recipes based on available ingredients.
+An Azure Function App that leverages computer vision to identify food items from refrigerator images and generates personalised recipe recommendations based on the detected ingredients and dietary preferences.
 
 ![Kitchen Copilot Image Upload Interface](assets/ImageUpload.png)
 
@@ -251,9 +251,9 @@ Example response:
 
 ## Dietary Restrictions Feature
 
-![Allergy & Dietary Display](assets/Allergy.png)
-
 The Kitchen Copilot API supports the following dietary restrictions:
+
+![Allergy & Dietary Display](assets/Allergy.png)
 
 ### Available Restrictions
 
